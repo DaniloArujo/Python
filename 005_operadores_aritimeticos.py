@@ -11,7 +11,8 @@ d = x / y
 di = x // y
 e = x ** y
 rd = x % y
+ra = x ** ( 1/2 )
 
 print(f"A soma é {s}, a multiplicação é {m}, a divisão é {d} "
       f"a divisão inteira é {di}, a exponenciação é {e} e "
-      f"o resto da divisão é {rd}.")
+      f"o resto da divisão é {rd}, a raiz de x é {ra}.")
