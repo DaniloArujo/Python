@@ -4,4 +4,4 @@ from math import trunc
 
 num = float(input('Digite um valor: '))
 
-print(trunc(num))
+print(f'Utilizando o metodo trunc da biblioteca math transformei o float {num} em {trunc(num)}, que é o numero sem a parte fracionada.')
