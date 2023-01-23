@@ -63,3 +63,6 @@ print(frase)
 
 frase = '-'.join(frase)
 print(frase)
+
+#verificar se a palavra está dentro da frase
+print('tratamento' in frase)
