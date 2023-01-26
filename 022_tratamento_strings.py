@@ -61,7 +61,6 @@ print(frase)
 print(frase[2][0])
 
 #join serve para juntar as diferentes listas em uma string
-
 frase = '-'.join(frase)
 print(frase)
 
