@@ -58,11 +58,12 @@ print(frase2.lstrip())
 #split transforma uma string em várias, usando com parametro os espaços
 frase = frase.split()
 print(frase)
+print(frase[2][0])
 
 #join serve para juntar as diferentes listas em uma string
 
 frase = '-'.join(frase)
 print(frase)
 
-#verificar se a palavra está dentro da frase
+#verificar se a palavra está dentro da frase (retorna boolean)
 print('tratamento' in frase)
