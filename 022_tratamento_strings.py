@@ -34,7 +34,7 @@ print(frase.count('tratamento'))
 #A contagem pode ser feita com fatiamento. note que agora os indices são separados por vírgulas
 print(frase.count('o',0,15))
 
-#funcionalidade que mostra o indice da palavra ou letra 
+#funcionalidade que mostra o indice da primeira palavra ou letra 
 print(frase.find('tame'))
 
 #replace 
