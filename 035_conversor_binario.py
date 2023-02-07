@@ -9,10 +9,10 @@ if opcao < 1 or opcao > 3:
     print('opção inválida')
 
 elif opcao == 1:
-    print(bin(num))
+    print(bin(num)[2:])
 
 elif opcao == 2:
-    print(oct(num))
+    print(oct(num)[2:])
 
 elif opcao == 3:
-    print(hex(num))
+    print(hex(num)[2:])
