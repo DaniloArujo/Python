@@ -1,3 +1,5 @@
+#Faça um programa que leia um número qualquer e mostre o seu fatorial.
+
 numero = int(input('Digite um numero: '))
 fatorial = 0
 
