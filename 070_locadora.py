@@ -191,3 +191,33 @@ while True:
                 print('Erro ao retornar o filme')
 
             sleep(1)
+
+           
+           
+    #Excluir um filme do catálogo
+    elif opção == 7:
+        print('-'*50)
+        print('CATALOGO DE FILMES')
+        print('-'*50)
+        for elem in range(len(catalogo)):
+            print(f" [{elem}] {catalogo[elem]['titulo']}, {catalogo[elem]['ano']}, {catalogo[elem]['genero']}")
+        print()
+        sleep(1)
+
+
+        escolha = int(input('Escolha o filme a ser excluido de acordo com o índice: '))
+        Deleted_film = catalogo[escolha]['titulo']
+        
+        if catalogo[escolha] in disponiveis:
+            for elem in range(len(disponiveis)):
+                if catalogo[escolha]['titulo'] == disponiveis[elem]['titulo']:
+                    print('1')
+                else:
+                    print('2')
+
+
+
+        else:
+            print('Alugados')
+
+        
