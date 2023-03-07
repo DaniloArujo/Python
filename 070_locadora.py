@@ -211,15 +211,20 @@ while True:
         if catalogo[escolha] in disponiveis:
             for elem in range(len(disponiveis)):
                 if catalogo[escolha]['titulo'] == disponiveis[elem]['titulo']:
+                    print(f'{catalogo[escolha]["titulo"]} deletado com sucesso')
                     del(catalogo[escolha])
                     del(disponiveis[elem])
+                    sleep(2)
                 else:
                     continue
         
         if catalogo[escolha] in alugados:
             for elem in range(len(alugados)):
                 if catalogo[escolha]['titulo'] == alugados[elem]['titulo']:
+                    print(f'{catalogo[escolha]["titulo"]} deletado com sucesso')
                     del(catalogo[escolha])
                     del(alugados[elem])
-                    
+                    sleep(2)
+                else:
+                    continue
         
