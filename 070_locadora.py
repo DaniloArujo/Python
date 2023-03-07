@@ -221,9 +221,5 @@ while True:
                 if catalogo[escolha]['titulo'] == alugados[elem]['titulo']:
                     del(catalogo[escolha])
                     del(alugados[elem])
-
-
-        else:
-            print('Alugados')
-
+                    
         
